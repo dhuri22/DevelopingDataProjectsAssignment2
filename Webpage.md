@@ -3,7 +3,8 @@ title: "PeerGradedAssignment2"
 output: html_document
 ---
 
-Date: 10/1/2020
+Date: 9/30/2020
+
 
 
 # Developing Data Products Project 2
@@ -15,7 +16,7 @@ library(plotly)
 
 ## Plot
 
-````{r}
+```{r}
 p <- plot_ly(economics, x = ~date, y = ~unemploy / pop)
 p
 ```
